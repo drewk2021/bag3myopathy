@@ -9,7 +9,7 @@ def getDescriptors(path):
     """
     descriptors = pd.read_csv(path, header = 0, index_col = 0)
     # descriptors.fillna(0,inplace=True) substituting NA values for 0
-    descriptors = descriptors.apply(lambda x: x.fillna(x.mean()),axis=0) # substituting NA values for columnwise means
+    # descriptors = descriptors.apply(lambda x: x.fillna(x.mean()),axis=0) # substituting NA values for columnwise means
     return descriptors
 
 
