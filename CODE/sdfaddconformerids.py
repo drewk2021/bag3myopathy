@@ -47,4 +47,4 @@ def addConfIds(basePath, endPath):
 
 
 if __name__ == "__main__":
-    addConfIds("C:\\Users\\Tamara\\Desktop\\bag3myopathy\\docking\\conformers\\predbag3drugsconformersDW.sdf","C:\\Users\\Tamara\\Desktop\\bag3myopathy\\docking\\conformers\\predbag3drugsconformersDWwithIDs.sdf")
+    addConfIds("C:\\Users\\Tamara\\Desktop\\bag3myopathy\\docking\\conformers\\drugbankpredbag3drugsconfsDW.sdf","C:\\Users\\Tamara\\Desktop\\bag3myopathy\\docking\\conformers\\drugbankpredbag3drugsconfsDWwithIDs.sdf")

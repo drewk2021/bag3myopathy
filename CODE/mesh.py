@@ -22,8 +22,8 @@ if __name__ == "__main__":
             modelAttributes.append(line.split(" ")[1])
 
 
-    fdaDrugs = getDescriptors("C:\\Users\\Tamara\\Desktop\\bag3myopathy\\descriptors\\fdadrugsdescriptors.csv")
-    fdaDrugs = superviseLabel(fdaDrugs, "?")
+    dbDrugs = getDescriptors("C:\\Users\\Tamara\\Desktop\\bag3myopathy\\descriptors\\drugbankdescriptors.csv")
+    dbDrugs = superviseLabel(dbDrugs, "?")
 
-    filteredTest = meshData(modelAttributes,fdaDrugs)
-    filteredTest.to_csv("C:\\Users\\Tamara\\Desktop\\bag3myopathy\\descriptors\\fdadrugswithclass.csv", index = True)
+    filteredTest = meshData(modelAttributes,dbDrugs)
+    filteredTest.to_csv("C:\\Users\\Tamara\\Desktop\\bag3myopathy\\descriptors\\drugbankwithclass.csv", index = True)
